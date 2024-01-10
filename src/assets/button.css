@@ -1,0 +1,91 @@
+.btn {
+  @apply px-5 py-3 shadow-sm transition ease-in-out duration-300 rounded leading-snug whitespace-nowrap text-base font-semibold;
+}
+
+.btn.btn-sm {
+  @apply px-4 py-2 text-sm;
+}
+
+.btn.btn-lg {
+  @apply text-lg px-8 py-4;
+}
+
+.btn-primary {
+  @apply text-white bg-blue-500 hover:bg-blue-600;
+}
+
+.btn-primary.btn-outline {
+  @apply text-blue-600 border border-blue-500 bg-transparent hover:bg-blue-500 hover:text-white;
+}
+
+.btn-secondary {
+  @apply text-white bg-indigo-500 hover:bg-indigo-600;
+}
+
+.btn-secondary.btn-outline {
+  @apply text-indigo-600 border border-indigo-500 bg-transparent hover:bg-indigo-500 hover:text-white;
+}
+
+.btn-tertiary {
+  @apply text-white bg-gray-600 hover:bg-gray-700;
+}
+
+.btn-tertiary.btn-outline {
+  @apply text-gray-600 border border-gray-600 bg-transparent hover:bg-gray-600 hover:text-white;
+}
+
+.btn-success {
+  @apply text-white bg-green-500 hover:bg-green-600;
+}
+
+.btn-success.btn-outline {
+  @apply text-green-600 border border-green-500 bg-transparent hover:bg-green-500 hover:text-white;
+}
+
+.btn-danger {
+  @apply text-white bg-red-500 hover:bg-red-600;
+}
+
+.btn-danger.btn-outline {
+  @apply text-red-500 border border-red-500 bg-transparent hover:bg-red-500 hover:text-white;
+}
+
+.btn-warning {
+  @apply text-white bg-yellow-500 hover:bg-yellow-600;
+}
+
+.btn-warning.btn-outline {
+  @apply text-yellow-600 border border-yellow-500 bg-transparent hover:bg-yellow-500 hover:text-white;
+}
+
+.btn-info {
+  @apply text-white bg-blue-600 hover:bg-blue-700;
+}
+
+.btn-info.btn-outline {
+  @apply text-blue-600 border border-blue-600 bg-transparent hover:bg-blue-600 hover:text-white;
+}
+
+.btn-light {
+  @apply text-gray-800 bg-gray-200 hover:bg-gray-300;
+}
+
+.btn-light.btn-outline {
+  @apply text-gray-800 border border-gray-200 bg-transparent hover:bg-gray-200 hover:text-gray-800;
+}
+
+.btn-dark {
+  @apply text-white bg-gray-800 hover:bg-gray-700;
+}
+
+.btn-dark.btn-outline {
+  @apply text-gray-600 border border-gray-800 bg-transparent hover:bg-gray-800 hover:text-white;
+}
+
+.btn-link {
+  @apply text-blue-600 underline;
+}
+
+.btn:disabled {
+  @apply cursor-not-allowed  opacity-30;
+}
